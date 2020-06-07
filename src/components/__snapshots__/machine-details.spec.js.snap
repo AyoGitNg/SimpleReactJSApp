@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Machine Details 1`] = `
+<machineDetails
+  health={60}
+  id="99ade105-dee1-49eb-8ac4-e4d272f89fba"
+  ip_address="127.0.0.31"
+  name="Machine 1"
+  onClick={[MockFunction]}
+/>
+`;

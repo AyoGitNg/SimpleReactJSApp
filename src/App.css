@@ -1,0 +1,92 @@
+body, html {
+	height: 100%;
+}
+
+#root {
+	height: 100%;
+}
+
+.App {
+	margin: 0 3em;
+	height: 100%;
+	background-color: white;
+}
+
+.App-header {
+	text-align: center;
+}
+
+.App-nav {
+	margin-bottom: 2em;
+}
+
+.App-nav a {
+	text-decoration: none;
+	color: #36459b;
+	margin: 0 1em;
+}
+
+.App-nav a:hover {
+	text-decoration: underline;
+}
+
+.App-nav a:first-child {
+	margin-left: 0;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+.list-group {
+	display: flex;
+	display: -ms-flex;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-left: 0;
+	margin-bottom: 0;
+	width: 40%;
+}
+
+
+.list-group-item {
+	padding: 0.5rem 1rem;
+	color: #9f1f0a
+}
+
+.list-group-item:hover, .list-group-item:focus {
+	z-index: 1;
+	text-decoration: none;
+	background: #9f1f0a;
+	color: white;
+}
+
+.card {
+	position: relative;
+	display: flex;
+	display: -ms-flex;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #ffffff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 20px;
+	margin: 0.25rem;
+}
+
+.card-body {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+
+.card-title {
+	margin-bottom: 0.25rem;
+}
